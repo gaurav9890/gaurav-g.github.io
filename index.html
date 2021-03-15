@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>All Products - Wonderwood Furniture</title>
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        
+                
+        <div class="container">
+            <div class="navbar">
+            <div class="logo">
+                <a href="index.php"><img src="images/wonderwood.png" width="200px"></a> 
+            </div>
+            <nav>
+                <ul id="MenuItems">
+                    <li><a href="index.php">Home</a></li>
+                    <li><a href="Product.html">Products</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Contact</a></li>
+                    <li><a href="account.html">Account</a></li>
+                </ul>
+            </nav>
+                <a href="cart.php"><img src="images/cart.png" width="30px" height="30" ></a>   
+                <img src="images/menu.png" class="menu-icon" onclick="menutoggle()">
+        </div>
+
+      </div>  
+        
+<!---------- single product details ----------->
+        
+        <div class="small-container single-product">
+             <div class="row">
+                  <div class="col-2">
+                      <img src="images/2.png" width="100%">
+                 </div>
+                  <div class="col-2">
+                       <p><a href="index.php">Home</a>/ Sofa</p>
+                       
+                       <h2>Marshall Wooden Chair</h2>
+                       <br>
+                       <h3>Rs4500</h3>
+                       <input type="number" value="1">
+                       <a href="" class="btn">Add To Cart</a>
+                       
+                       <h3>Product Details :</h3>
+                       <p>Material :   Wooden</p>
+                       <p>Color    :    Choclate Brown</p>
+                       <p>Two Seater Dimensions (Inch) :  3 L x 2.5 W x 6 H</p>
+                       <p>Est Delivery  :  5-6 weeks</p>
+                  </div>
+            </div>   
+        
+        </div>
+
+<!--------- title ------------>
+    <div class="small-container">
+        <div class="row row-2">
+             <h2>Related Products</h2>
+        </div>
+    
+    </div>
+        
+        
+<!---------- products --------->
+             <div class="small-container">
+                 
+                 <div class="row">
+                     <div class="col-4">
+                          <a href="product-details-4.html"><img src="images/dining%20table.png"></a> 
+                         <a href="product-details-4.html"><h4>ROSA Dining Table</h4></a>
+                          <p>Rs19000</p>
+                     </div>
+                     <div class="col-4">
+                          <a href="product-details.html"><img src="images/12.png"></a> 
+                          <a href="product-details.html"><h4>2-Seater Sofa</h4></a>  
+                          <p>Rs10000</p>
+                     </div>
+                     <div class="col-4">
+                          <a href="product-details-2.html"><img src="images/4.png"></a> 
+                          <a href="product-details-2.html"><h4>Henry Wooden Chair</h4></a>  
+                          <p>Rs5000</p>
+                     </div>
+                     <div class="col-4">
+                          <a href="product-details-3.html"><img src="images/13.png"></a> 
+                          <a href="product-details-3.html"><h4>1-Seater Sofa</h4></a>  
+                          <p>Rs8000</p>
+                     </div>
+                 </div>
+                     
+            </div>
+<!------------ footer ------------>
+          
+        <div class="footer">
+              <div class="container">
+                   <div class="row">
+                     <div class="footer-col-1">
+                          <a href="index.php"><img src="images/wonderwood.png"></a> 
+                          <p> Every furniture is marked with chic forging that are too good to welcome home.</p>
+                       </div>
+                       <div class="footer-col-2">
+                           <h3>Useful links</h3>
+                           <ul>
+                               <li>Blog Post</li>
+                               <li>Return Policy</li>
+                               <li>Join Affiliate</li>
+                           </ul>
+                       </div>
+                       <div class="footer-col-3">
+                              <h3>Follow Us</h3>
+                              <ul>
+                               <li>Facebook</li>
+                               <li>Twitter</li>
+                               <li>Instagram</li>
+                           </ul>
+                       </div>
+                  </div>   
+                   <hr>
+                        <p class="copyright">Copyright 2020 - Datta meghe college of engg</p>
+            </div>
+          </div>
+        
+        
+<!----------- js for toggle menu --------->
+        
+        <script>
+            var MenuItems = document.getElementById("MenuItems");
+            
+            MenuItems.style.maxHeight ="0px";
+            
+            function menutoggle(){
+                if( MenuItems.style.maxHeight == "0px")
+                    {
+                         MenuItems.style.maxHeight = "200px";
+                    }
+                else
+                {
+                     MenuItems.style.maxHeight ="0px";
+                }
+            }
+            
+        
+        </script>
+        
+        
+    </body>
+    </html>
